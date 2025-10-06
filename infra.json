@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "version": "1.0"
+  },
+  "software": {
+    "settings": {
+      "store": "/tmp/software/"
+    },
+    "apps": {
+      "requests": {
+        "url": "https://github.com/psf/requests/releases/download/v2.32.5/requests-2.32.5.tar.gz",
+        "install": {
+          "on": "localhost",
+          "to": "/tmp/install/requests"
+        }
+      }
+    }
+  }
+}
